@@ -37,6 +37,19 @@
             <artifactId>mysql-connector-j</artifactId>
             <version>8.4.0</version> <!-- Use the correct version here -->
         </dependency>
+        <dependency>
+            <groupId>org.junit.jupiter</groupId>
+            <artifactId>junit-jupiter</artifactId>
+            <version>RELEASE</version>
+            <scope>test</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>org.json</groupId>
+            <artifactId>json</artifactId>
+            <version>20210307</version>
+        </dependency>
+
 
 
     </dependencies>

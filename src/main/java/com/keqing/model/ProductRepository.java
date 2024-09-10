@@ -8,6 +8,10 @@ import java.util.Map;
 
 import static com.keqing.Utils.UrlTools.convertToJdbcUrl;
 
+/**
+ * This class provides an interface for interacting with the product database.
+ * It supports CRUD operations and various queries related to products.
+ */
 public class ProductRepository {
 
     private final String databaseUrl;

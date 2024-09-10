@@ -2,6 +2,12 @@ package com.keqing.model;
 
 import java.util.Date;
 
+/**
+ * The Product class represents a product in an e-commerce system,
+ * containing all necessary details such as ID, name, description,
+ * category ID, price, stock quantity, weight, image URL, creation
+ * date, and availability status.
+ */
 public class Product {
 
     private int id;
